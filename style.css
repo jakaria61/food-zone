@@ -89,6 +89,28 @@ a{
     margin-right: 20px;
     text-align: center;
 }
+.contact{
+    padding-top: 3%;
+    width: 60%;
+    margin: 2% auto;
+    padding-bottom: 2%;
+    background-color: rgba(156, 174, 224, 0.637);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 10px rgba(167, 162, 162, 0.699);
+}
+
+.button-style{
+    background-color: rgb(10, 9, 9);
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+.input-field{
+   height: 25px;
+   width: 25%;
+   border-radius: 5px;
+
+}
 footer{
     padding-top:37px;
     margin-top: 5%;
@@ -97,6 +119,7 @@ footer{
     padding-bottom: 40px;
     
 }
+
 .footer-text{
     color: white;
 }
