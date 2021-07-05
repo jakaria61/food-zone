@@ -1,0 +1,102 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+}
+.flexible-container{
+    display: flex;
+    align-items: center;
+}
+.linear-color{
+  color: #FBA24F;
+}
+.name{
+    font-family: 'Montserrat', sans-serif;
+    font-size:60px;
+    line-height: 0.5;
+}
+.half-width{
+ margin-left: 7%;
+ width: 50%;
+ 
+}
+.half-width img{
+    width: 80%;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom:30px ;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(pink,red);
+    padding: 12px 23px;
+    border-radius:22px;
+    color: white;
+    box-shadow: 5px 5px 5px 5px pink;
+    
+}
+
+.mid-width{
+    background-image: url(images/mid-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.porject-area{
+    background-color:rgb(255, 255, 255);
+}
+ #project-container{
+    display: flex;
+  padding-left: 20%;
+}
+.projects{
+  width: 20%;
+  margin: 10px;
+  border: 2px solid rgb(255, 239, 239);
+  border-radius: 15px;
+  box-shadow: 5px 5px 14px rgba(160, 157, 157, 0.788);
+  padding: 20px;
+  background-color: white; 
+}
+.projects img{
+    width: 100%;
+}
+.project-title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:40px;
+    padding-top: 5%;
+
+} 
+.food-description{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+    
+}
+#optional-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-radius: 18px;
+    margin: 5% auto 0 auto;
+    box-shadow: 5px 5px 5px 10px rgba(216, 213, 213, 0.897);
+}
+.optional-item{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+footer{
+    padding-top:37px;
+    margin-top: 5%;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 40px;
+    
+}
+.footer-text{
+    color: white;
+}
